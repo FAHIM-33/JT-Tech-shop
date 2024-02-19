@@ -4,7 +4,9 @@ import ReactDOM from 'react-dom/client'
 import './index.css'
 import MainLayout from './Layouts/MainLayout'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
-import Home from './pages/Home'
+import Home from './pages/Home/Home'
+import AddProduct from './pages/addProduct/AddProduct'
+import PrivateRoute from './routes/PrivateRoute'
 
 const router = createBrowserRouter([
   {
@@ -15,6 +17,10 @@ const router = createBrowserRouter([
       {
         path: "/",
         element: <Home></Home>,
+      },
+      {
+        path: "/addProduct",
+        element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>,
       },
     ]
   }
