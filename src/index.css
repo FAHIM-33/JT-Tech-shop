@@ -1,4 +1,20 @@
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+    :root {
+        --primary: rgb(255, 136, 0);
+        --high: rgb(17, 17, 17);
+        --mid: rgb(34, 34, 34);
+        --low: rgb(51, 51, 51);
+        --background: rgb(255, 255, 255);
+    }
+
+    :root[data-theme='dark'] {
+        --high: rgb(238, 238, 238);
+        --mid: rgb(202, 202, 202);
+        --low: rgb(164, 164, 164);
+        --background: rgb(33, 33, 33);
+    }
+}

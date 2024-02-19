@@ -7,6 +7,14 @@ export default {
   ],
   theme: {
     extend: {},
+    colors: {
+      prim: 'var(--primary)',
+      low: 'var(--low)',
+      mid: 'var(--mid)',
+      high: 'var(--high)',
+      back: 'var(--background)',
+
+    }
   },
   plugins: [],
 }

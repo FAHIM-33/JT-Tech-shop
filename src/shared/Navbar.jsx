@@ -3,7 +3,7 @@ import PCnav from "./PCnav";
 
 const Navbar = () => {
     return (
-        <nav className="">
+        <nav className=" ">
             <PCnav></PCnav>
             <MobileNav></MobileNav>
         </nav>
