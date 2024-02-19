@@ -1,5 +1,7 @@
 
+
 const Banner = () => {
+
     return (
         <section className="relative">
             <img src="https://i.ibb.co/ftccZm8/earth.jpg" className="h-[600px] w-full object-cover object-center" alt="banner  Image" />
