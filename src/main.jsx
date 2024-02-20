@@ -5,9 +5,10 @@ import './index.css'
 import MainLayout from './Layouts/MainLayout'
 import { RouterProvider, createBrowserRouter } from 'react-router-dom'
 import Home from './pages/Home/Home'
-import AddProduct from './pages/addProduct/AddProduct'
+
 import PrivateRoute from './routes/PrivateRoute'
 import AuthProvider from './Providers/AuthProvider'
+import AddProducts from './pages/Add/AddProducts'
 
 const router = createBrowserRouter([
   {
@@ -21,7 +22,7 @@ const router = createBrowserRouter([
       },
       {
         path: "/addProduct",
-        element: <PrivateRoute><AddProduct></AddProduct></PrivateRoute>,
+        element: <PrivateRoute><AddProducts></AddProducts></PrivateRoute>,
       },
     ]
   }

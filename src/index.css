@@ -20,14 +20,44 @@
     }
 }
 
-body{
+body {
     font-family: sans-serif;
 }
 
+label {
+    font-size: 1.2rem;
+}
 
-.brr{
+input {
+    background-color: #8f8f8f2d;
+    border-radius: 6px;
+    width: 100%;
+    padding: 1rem;
+    outline: none;
+    transition: all 0.2s;
+}
+
+input:focus {
+    outline: 3px solid var(--primary);
+}
+
+.btn {
+    transition: all 0.2s;
+}
+
+.btn:hover {
+    scale: 1.04;
+    cursor: pointer;
+}
+
+.btn:active {
+    scale: 0.9;
+}
+
+.brr {
     border: 1px solid red;
 }
-.brb{
+
+.brb {
     border: 1px solid blue;
 }
