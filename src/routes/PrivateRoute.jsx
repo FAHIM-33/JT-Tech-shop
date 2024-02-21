@@ -1,11 +1,13 @@
 import { useContext } from "react";
 import { AuthContext } from "../Providers/AuthProvider";
-import { useNavigate } from "react-router-dom";
+import { Navigate } from "react-router-dom";
 
 const PrivateRoute = ({ children }) => {
     const { user, loading } = useContext(AuthContext)
-    const nav = useNavigate()
-    if (!loading && !user?.email) { return nav('/login') }
+
+    if (loading) { return <p className="text-5xl text-center mt-12 animate-pulse">Loading<span className=" inline-block animate-bounce">.</span></p> }
+    if (!user) { return <Navigate to="/login"></Navigate> }
+
 
     return children
 };

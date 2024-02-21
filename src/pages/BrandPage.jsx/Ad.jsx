@@ -31,8 +31,6 @@ const Ad = ({ brand }) => {
         slidesPerView: isMobile ? 1.3 : 2.7,
         navigation: true,
         pagination: { clickable: true },
-        onSwiper: (swiper) => console.log(swiper),
-        onSlideChange: () => console.log('slide change')
     }
 
     function handleCard(name) {

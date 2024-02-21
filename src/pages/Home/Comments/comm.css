@@ -1,0 +1,6 @@
+#comm{
+    transition: all 0.2s;
+}
+#comm:hover{
+    scale: 1.03;
+}
