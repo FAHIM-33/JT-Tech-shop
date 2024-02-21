@@ -15,6 +15,8 @@ import axios from 'axios'
 import Update from './pages/Update/Update'
 import Login from './Providers/Login'
 import Register from './Providers/Register'
+import BrandPage from './pages/BrandPage.jsx/BrandPage'
+import Details from './pages/Details/Details'
 
 const router = createBrowserRouter([
   {

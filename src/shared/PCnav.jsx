@@ -7,7 +7,7 @@ import { AuthContext } from "../Providers/AuthProvider";
 const PCnav = () => {
     let theme = 'p'
     const { user, loading, logOut } = useContext(AuthContext)
-    
+
 
     let handleTheme
 
@@ -44,7 +44,10 @@ const PCnav = () => {
             {
                 user?.email ?
                     <div className="flex items-center gap-2">
-                        {loading || <img className="w-10 border block rounded-full" src={user?.photoURL} alt="" />}
+                        <div className="flex items-center gap-2 border px-1 py-px">
+                            <img className="w-10 h-10 object-cover border block rounded-full" src={user.photoURL} alt="" />
+                            <p className="text-prim">{user?.displayName}</p>
+                        </div>
                         <button onClick={logOut} className="px-2 text-high bg-back btn py-1 w-fit">Logout</button>
                     </div>
                     :

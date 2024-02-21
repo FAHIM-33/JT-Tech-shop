@@ -34,8 +34,8 @@ const FeaturedCategory = () => {
     ]
 
     return (
-        <section>
-            <SecHead title='Featured category' details="Get Your Desired Product from Featured Category!"></SecHead>
+        <section className="mt-12">
+            <h2 className="text-center text-2xl lg:text-5xl  lg:mb-8 text-low bg-fadegray p-2">Featured category</h2>
             <div className="flex justify-center gap-4 my-4">
                 {
                     categories.map((obj, idx) => <div
