@@ -54,6 +54,15 @@ input:focus {
     scale: 0.9;
 }
 
+.join{
+    background-image: url('https://i.ibb.co/HX6xm4L/2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+
 .brr {
     border: 1px solid red;
 }

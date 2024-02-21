@@ -11,10 +11,10 @@ const Home = () => {
             <Banner></Banner>
             <div className="max-w-screen-xl mx-auto">
 
-            <FeaturedCategory></FeaturedCategory>
-            <Brands></Brands>
-            <Locations></Locations>
-            <Join></Join>
+                <FeaturedCategory></FeaturedCategory>
+                <Brands></Brands>
+                <Locations></Locations>
+                <Join></Join>
             </div>
             <Footer></Footer>
         </section>

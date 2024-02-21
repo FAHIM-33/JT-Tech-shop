@@ -48,6 +48,21 @@ const router = createBrowserRouter([
         path: '/register',
         element: <Register></Register>,
       },
+      {
+        path: '/brand/:title',
+        element: <BrandPage></BrandPage>,
+        loader: ({ params }) => axios.get(`https://assignment-10-pied.vercel.app/search/${params.title}`)
+      },
+      {
+        path: '/update/:id',
+        element: <PrivateRoute><Update></Update></PrivateRoute>,
+        loader: ({ params }) => axios.get(`https://assignment-10-pied.vercel.app/product/${params.id}`)
+      },
+      {
+        path: '/details/:id',
+        element: <PrivateRoute><Details></Details></PrivateRoute>,
+        loader: ({ params }) => axios.get(`https://assignment-10-pied.vercel.app/product/${params.id}`)
+      },
     ]
   }
 ])
