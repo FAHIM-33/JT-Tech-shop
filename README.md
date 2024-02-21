@@ -1,9 +1,11 @@
-# React + Vite
+Functionalities of this Server side:
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+   - Has a Database to store all data.
+- Has products from different brands.
+   - Routes of this website is secured with firebase authentication.
+   - Environment variables used for more security.
+   - Products can be updated with convenience.
+   - Reliable Error handling.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-# JT-Tech-shop
+
