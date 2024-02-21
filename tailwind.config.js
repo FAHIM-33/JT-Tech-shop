@@ -13,7 +13,7 @@ export default {
         mid: 'var(--mid)',
         high: 'var(--high)',
         back: 'var(--background)',
-        fade: 'var(--fadegrey)'
+        fadegray: 'var(--fadegrey)'
       }
     },
 

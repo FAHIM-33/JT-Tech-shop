@@ -6,15 +6,15 @@ const Footer = () => {
         <footer className="bg-low pt-5 pb-4 text-white">
             <div className="text-center bg-[#222]">
                 <figure className="">
-                    <img src="/pngwing.com.png" className="mx-auto -m-2 w-12" alt="" />
+                    <img src="/public/pngwing.com(1).png" className="mx-auto -m-2 w-6 mb-1" alt="" />
                 </figure>
                 <p className="font-semibold md:text-sm text-xs pb-1">
-                    - Brandify -
+                    - TechShop -
                 </p>
             </div>
             <div className="flex justify-center items-center mt-4 text-sm">
             </div>
-            <p className="text-center md:text-base text-xs">Showroom Name: Brandify Showrooms LTD
+            <p className="text-center md:text-base text-xs">Showroom Name: Techshop Showrooms LTD
                 </p>
                 <p className="text-center md:text-base text-xs">
                 Address: 1234 Al-Elm Street, Cityville, UAE, Qatar

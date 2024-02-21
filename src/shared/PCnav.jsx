@@ -1,12 +1,14 @@
 import { Link, NavLink } from "react-router-dom";
 import { BsFillSunFill, BsFillMoonFill } from "react-icons/bs"
+import { useContext } from "react";
+import { AuthContext } from "../Providers/AuthProvider";
 
 
 const PCnav = () => {
     let theme = 'p'
-    let user = null
-    let loading
-    let logOut
+    const { user, loading, logOut } = useContext(AuthContext)
+    
+
     let handleTheme
 
     const links = <>

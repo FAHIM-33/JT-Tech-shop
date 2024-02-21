@@ -1,0 +1,32 @@
+[
+    {
+        "id": 1,
+        "branch": "Dhaka Branch",
+        "address": "123 Main Street, Suite 101, Cityville, State, 12345"
+    },
+    {
+        "id": 2,
+        "branch": "Khulna Branch",
+        "address": "456 Park Avenue, Unit 202, Townsville, State, 67890"
+    },
+    {
+        "id": 3,
+        "branch": "Barishal Branch",
+        "address": "789 Maple Road, Building A, Villageton, State, 54321"
+    },
+    {
+        "id": 4,
+        "branch": "Rajshahi Branch",
+        "address": "101 Oak Drive, Apt. 303, Hamletown, State, 13579"
+    },
+    {
+        "id": 5,
+        "branch": "Sylhet Branch",
+        "address": "202 Cedar Lane, Suite 404, Countryside, State, 02468"
+    },
+    {
+        "id": 6,
+        "branch": "Chittagong Branch",
+        "address": "303 Elm Court, Unit B, Riverside, State, 97531"
+    }
+]

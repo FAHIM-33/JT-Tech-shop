@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-
+ 
 const ErrorPage = () => {
 let nav = useNavigate()
 
